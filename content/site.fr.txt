@@ -1,0 +1,17 @@
+Title: IC MTL
+
+----
+
+Author: Arthur Schmitt
+
+----
+
+Description: Programme d'accélération. 
+
+----
+
+Keywords: Montreal, culture, technologie
+
+----
+
+Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)

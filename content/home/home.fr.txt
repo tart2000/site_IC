@@ -1,0 +1,27 @@
+Title: Home
+
+----
+
+Text: 
+
+IC est le programme pour vous si :
+
+- Vous aimez Montreal
+- vous êtes awesome 
+- vous êtes prêts à être au top
+
+----
+
+Baseline: Un programme d'accélération pour les fondateurs
+
+----
+
+Description: Une explication convaincante en moins de 150 mots qui explique pourquoi c'est vraiment trop bien et qu'il faut absolument faire ça quand on se sent entrepreneur et qu'on ne sait pas forcément quoi faire !
+
+----
+
+Region: true
+
+----
+
+Regilink: 
