@@ -39,7 +39,7 @@
     	<?php endforeach ?>
 
 
-    	<button type="button" class="btn btn-default navbar-btn">Register</button>
+    	<button type="button" class="btn btn-default navbar-btn"><?php echo l::get('register') ?></button>
 
 	</ul>
 </div><!--/.nav-collapse -->

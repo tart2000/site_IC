@@ -19,6 +19,9 @@
 	max-width: 100%;
 }
 
+.maps iframe{
+    pointer-events: none;
+}
 
 
 
