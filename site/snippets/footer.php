@@ -1,12 +1,14 @@
-    <hr>
+
  	 	<footer class="footer" role="contentinfo">
  	 		<div class="container">
 				<div class="row">
+
 					<div class="col-sm-6 copyright">
+						<img src="<?php echo url('assets/images/logo_IC_mtl.png') ?>" class="smb">
 						<?php echo $site->copyright()->kirbytext() ?>					
 					</div>
-					<div class="col-sm-6 colophon text-right">
-						<a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
+					<div class="col-sm-6 text-right">
+						<?php echo page('home')->foottext()->kirbytext() ?>
 					</div>
 				</div>
  	 		</div>

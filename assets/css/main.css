@@ -4,9 +4,56 @@
    Author's custom styles
    ========================================================================== */
 
+html { height: 100%; }
+body {height: 100%; margin: 0; padding: 0;}
+
 /* Navbar */
 .navbar-brand>img {
 	max-height: 100%;
+}
+.navbar-brand {
+    height: 76px
+}
+.navbar {
+	background-color: black;
+	color: white;
+	border-width: 0px;
+	border-radius: 0px;
+	margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: grey;
+}
+.navbar-btn {
+	margin-left: 20px;
+	border-radius: 23px;
+	border: solid 2px white;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: white;
+	height: 46px;
+	margin-top: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.navbar-btn:hover {
+	color: grey;
+}
+.navbar-toggle {
+	margin-top: 20px;
+}
+@media (min-width: 768px) {
+	.lang {
+		border-left: solid white 1px;
+		margin-left: 15px;
+		padding-left: 15px;
+	}
 }
 
 /* Nav */
@@ -14,17 +61,61 @@
 	padding-left: 15px;
 }
 
+/* General */
+h1 {
+	font-family: roboto;
+	font-weight: 100;
+	font-size: 40px;
+}
+.smb {
+	margin-bottom: 15px;
+}
+
 /* Text blocks */
 .text img {
 	max-width: 100%;
 }
 
+/* Home page */
+#welcome {
+	padding-top: 180px;
+	background-size: cover;
+	background-position: center;
+	background-color: #f57153;
+	background-blend-mode: overlay;
+	min-height: 90%;
+}
+#welcome h1 {
+	background-color: rgba(255,255,255,0.8);
+	display: -webkit-inline-box;
+	padding: 10px;
+}
+#description {
+	background-color: #fed149;
+	padding: 80px;
+}
 .maps iframe{
     pointer-events: none;
 }
+img.partner  {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+img.partner:hover  {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	-webkit-transition: 1s; /* Safari */
+    transition: 1s;
+}
 
-
-
+/* Footer */
+.footer {
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #efefef;
+	color: #929292;
+}
 
 
 

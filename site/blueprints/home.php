@@ -28,3 +28,9 @@ fields:
   	label : Lien vers inscriptions
   	type: url 
   	width: 1/2
+  footer:
+    label: Footer
+    type: headline
+  foottext:
+    label: Texte du footer
+    type: textarea

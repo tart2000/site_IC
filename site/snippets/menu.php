@@ -24,12 +24,9 @@
 	    	</li>
     	<?php endforeach ?>
 
-    	<li>
-	    	<a>|</a>
-	    </li>
 
     	<?php foreach($site->languages() as $language): ?>
-    		<li>
+    		<li class="lang">
 	    		<?php if ($site->language() != $language) : ?>
 	    			<a href="<?php echo $page->url($language->code()) ?>">
 	        			<?php echo html($language->code()) ?>
@@ -39,7 +36,7 @@
     	<?php endforeach ?>
 
 
-    	<button type="button" class="btn btn-default navbar-btn"><?php echo l::get('register') ?></button>
+    	<a href=""><button type="button" class="btn navbar-btn"><?php echo l::get('register') ?></button></a>
 
 	</ul>
 </div><!--/.nav-collapse -->

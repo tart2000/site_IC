@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
-	<!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="jumbotron">
+	<!-- Accueil -->
+	<div id="welcome" style="background-image:url(<?php echo $page->images()->first()->url() ?>);">
 		<div class="container">
 			<h1><?php echo $page->baseline() ?></h1>
 			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>

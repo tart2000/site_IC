@@ -16,6 +16,7 @@
   <link rel="shortcut icon" type="image/ico" href="<?php echo $site->url() ?>/assets/images/favicon.ico"/>
 
   <link type="text/javascript" href="https://code.jquery.com/jquery-2.2.2.min.js">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
   <?php echo css('assets/css/bootstrap.min.css') ?>
   <?php echo css('assets/css/main.css') ?>
@@ -37,7 +38,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="<?php echo $site->url() ?>"><img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" /></a>
+				<a class="navbar-brand" href="<?php echo $site->url() ?>"><img src="<?php echo url('assets/images/logo_IC_mtl.png') ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" /></a>
 			</div>
 	    <?php snippet('menu') ?>
 		</div>

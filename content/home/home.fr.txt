@@ -25,3 +25,16 @@ Region: true
 ----
 
 Regilink: 
+
+----
+
+Foottext: 
+
+380 rue St Laurent Ouest
+H4Y 3V9 Montréal QC 
+438 396 9224
+info@icmtl.com
+
+Ouverture
+9h > 19h
+lundi > samedi
