@@ -4,7 +4,7 @@
 				<div class="row">
 
 					<div class="col-sm-6 copyright">
-						<img src="<?php echo url('assets/images/logo_IC_mtl.png') ?>" class="smb">
+						<img src="<?php echo url('assets/images/logo_IC_mtl_grey.png') ?>" class="smb">
 						<?php echo $site->copyright()->kirbytext() ?>					
 					</div>
 					<div class="col-sm-6 text-right">

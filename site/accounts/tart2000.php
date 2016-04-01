@@ -7,6 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - home
-  - about
   - faq
+  - mentors/alistair-blug
+  - mentors
+  - mentors/john-doe
+  - register

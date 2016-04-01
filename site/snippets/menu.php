@@ -36,7 +36,7 @@
     	<?php endforeach ?>
 
 
-    	<a href=""><button type="button" class="btn navbar-btn"><?php echo l::get('register') ?></button></a>
+    	<a href="<?php echo page('register')->url() ?>"><button type="button" class="btn navbar-btn"><?php echo l::get('register') ?></button></a>
 
 	</ul>
 </div><!--/.nav-collapse -->

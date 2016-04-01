@@ -20,3 +20,6 @@ fields:
   		answer: 
   			label: Answer
   			type: textarea
+  text:
+    label: Texte
+    type: textarea

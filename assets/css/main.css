@@ -5,7 +5,11 @@
    ========================================================================== */
 
 html { height: 100%; }
-body {height: 100%; margin: 0; padding: 0;}
+body {
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+}
 
 /* Navbar */
 .navbar-brand>img {
@@ -67,8 +71,26 @@ h1 {
 	font-weight: 100;
 	font-size: 40px;
 }
+p {
+	font-size: 1.4em;
+}
+.mt {
+	margin-top: 45px;
+}
+.mb {
+	margin-bottom: 45px;
+}
+.smt {
+	margin-top: 15px;
+}
 .smb {
 	margin-bottom: 15px;
+}
+.pt {
+	padding-top: 45px;
+}
+.pb {
+	padding-bottom: 45px;
 }
 
 /* Text blocks */
@@ -94,6 +116,11 @@ h1 {
 	background-color: #fed149;
 	padding: 80px;
 }
+.hp {
+	max-width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+}
 .maps iframe{
     pointer-events: none;
 }
@@ -107,6 +134,19 @@ img.partner:hover  {
 	-webkit-transition: 1s; /* Safari */
     transition: 1s;
 }
+.thumb-img img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+.mentor-meta {
+	text-align: center;
+}
+
+/* FAQ */
+.question {
+	
+}
+
 
 /* Footer */
 .footer {
@@ -115,6 +155,7 @@ img.partner:hover  {
 	padding-bottom: 50px;
 	background-color: #efefef;
 	color: #929292;
+	font-size: 10px;
 }
 
 
