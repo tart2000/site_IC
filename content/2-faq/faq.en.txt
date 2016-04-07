@@ -22,8 +22,13 @@ In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum fe
 Qanda: 
 
 - 
-  question: a great question
+  question: "Who's behind it?"
   answer: a great answer
 - 
   question: How much does it cost?
   answer: Is that really a problem?
+- 
+  question: "What's the selection process?"
+  answer: >
+    The selection comitee meets three times
+    a year to chose the next cohort.

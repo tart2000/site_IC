@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Category
-pages:false
+pages: false
 files: false
 fields:
   title:

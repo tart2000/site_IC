@@ -22,3 +22,12 @@ Qanda:
   answer: |
     450$/personne/mois.
     Cela donne accès à tout le programme d'accompagnement et à un espace de travail.
+- 
+  question: >
+    Comment se fait le processus de
+    sélection ?
+  answer: >
+    Le Comité de sélection, composé de
+    différentes personnes, se réunit trois
+    fois par an pour choisir les éléments
+    de la future cohorte.

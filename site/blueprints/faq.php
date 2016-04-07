@@ -8,7 +8,7 @@ fields:
     label: Title
     type:  text
   qanda:
-  	label: Questions / Réponses 
+  	label: Questions / Answers 
   	type: structure 
   	entry: >
   		{{question}}<br/>
@@ -21,5 +21,5 @@ fields:
   			label: Answer
   			type: textarea
   text:
-    label: Texte
+    label: Text
     type: textarea

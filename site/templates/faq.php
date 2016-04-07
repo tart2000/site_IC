@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-	<div class="container" role="main">
+	<div class="container pt" role="main">
 		<h1><?php echo $page->title()->html() ?></h1>
 
 		<?php $coun = 0 ?>
@@ -26,8 +26,10 @@
 		<?php endforeach ?>
 	</div> <!-- // container -->
 
-	<div class="container">
+	<div class="container mb">
 		<?php echo $page->text()->kirbytext() ?>
 	</div>
+
+	<?php echo snippet('ready') ?>
 
 <?php snippet('footer') ?>

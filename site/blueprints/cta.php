@@ -5,8 +5,8 @@ pages: false
 files: true
 fields:
   title:
-    label: Nom
+    label: Name
     type:  text
   text:
-  	label: Texte
+  	label: Text
   	type: textarea

@@ -1,8 +1,7 @@
 
-<hr>
 
 <div class="container mentors">
-    <div class="row mb">
+    <div class="row intro pb pt">
         <div class="col-md-12">
             <h2><?php echo page('mentors')->title() ?></h2>
         </div>
@@ -13,7 +12,7 @@
 
     <div class="row pb">
         <?php foreach (page('mentors')->children() as $mentor) : ?>
-            <div class="col-md-3 col-xs-6 col-sm-4">
+            <div class="col-md-3 col-xs-6 col-sm-4 mb">
                 <?php if($image = $mentor->images()->sortBy('sort', 'asc')->first()): ?>
                     <div class="thumb-img">
                         <?php echo thumb($image, array('width' => 400, 'height' => 400, 'crop' => true)) ?>

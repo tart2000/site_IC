@@ -1,4 +1,4 @@
-<div class="container partners">
+<div class="container partners mt mb">
     <div class="row center pb">
         <em><?php echo page('partners')->title() ?></em>
     </div>

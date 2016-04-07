@@ -2,21 +2,28 @@
 
 title: Mentor
 pages: false
+sortable:true
 files: true
 fields:
   title:
-    label: Nom
+    label: Name
     type:  text
+  category: 
+    label: Category
+    type: select
+    options: query
+    query:
+      page: categories
     width: 1/2
   skill:
-  	label: Titre
+  	label: Title
   	type: text 
   	width: 1/2
   company:
-  	label: Compagnie
+  	label: Company
   	type: text
   	width: 1/2
   mentorLink:
-    label: Lien  
+    label: Link
     type: Url
     width: 1/2

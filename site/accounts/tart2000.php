@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - error
-  - mentors
-  - home
-  - partners
-  - home/ctas/international
+  - mentors/kyle-abbott
+  - mentors/john-doe
+  - mentors/alistair-blug
+  - mentors/amilton-john-priasq
+  - mentors/not-john-wayne

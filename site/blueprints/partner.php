@@ -5,8 +5,8 @@ pages: false
 files: true
 fields:
   title:
-    label: Nom
+    label: Name
     type:  text
   partnerLink:
-    label: Lien vers le partenaire 
+    label: Link to partner 
     type: Url

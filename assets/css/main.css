@@ -84,6 +84,11 @@ h1 {
 h2 {
 	font-family: Fjalla One, sans-serif;
 }
+h3 {
+	font-family: roboto;
+	font-weight: 100;
+	font-size: 26px;
+}
 p {
 	font-size: 1.4em;
 }
@@ -171,8 +176,11 @@ img.partner:hover, .mentors .thumb-img img:hover {
 }
 .mentor-meta {
 	text-align: center;
+	text-transform: capitalize;
 }
-
+.intro {
+	border-top: 2px solid #fed149;
+}
 
 /* FAQ */
 .question {
@@ -182,7 +190,6 @@ img.partner:hover, .mentors .thumb-img img:hover {
 
 /* Footer */
 .footer {
-	margin-top: 50px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background-color: #efefef;
