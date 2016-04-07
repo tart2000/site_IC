@@ -1,4 +1,4 @@
-Title: Home
+Title: Call to Actions
 
 ----
 
@@ -12,7 +12,7 @@ IC is the program for you if:
 
 ----
 
-Baseline: A 30-weeks acceleration program for founders
+Baseline: Acceleration program for founders
 
 ----
 

@@ -1,13 +1,12 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Mentors
-pages:
-  template: mentor
-files: false
+title: Cta
+pages: false
+files: true
 fields:
   title:
-    label: Title
+    label: Nom
     type:  text
-  text: 
+  text:
   	label: Texte
   	type: textarea

@@ -1,0 +1,9 @@
+Title: Erreur
+
+----
+
+Text: 
+
+C'est embarrassant. 
+La page n'a pas été trouvée... 
+Essayez autre chose ou envoyez-nous un message.

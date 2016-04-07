@@ -1,5 +1,6 @@
 
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -34,20 +35,29 @@ body {
 .navbar-default .navbar-nav>li>a:hover {
 	color: grey;
 }
-.navbar-btn {
-	margin-left: 20px;
+.btn {
 	border-radius: 23px;
-	border: solid 2px white;
+	border: solid 2px black;
+	color: black;
 	text-transform: uppercase;
 	background-color: transparent;
-	color: white;
 	height: 46px;
 	margin-top: 16px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
+.btn:hover {
+	background-color: black;
+	color: white;
+}
+.navbar-btn {
+	margin-left: 20px;
+	border-color: white;
+	color: white;
+}
 .navbar-btn:hover {
-	color: grey;
+	background-color: white;
+	color: black;
 }
 .navbar-toggle {
 	margin-top: 20px;
@@ -71,8 +81,23 @@ h1 {
 	font-weight: 100;
 	font-size: 40px;
 }
+h2 {
+	font-family: Fjalla One, sans-serif;
+}
 p {
 	font-size: 1.4em;
+}
+.hp li {
+	font-size: 1.4em;	
+}
+em {
+	color: #929292;
+}
+.center {
+	text-align: center;
+}
+.orange {
+	background-color: #fed149;
 }
 .mt {
 	margin-top: 45px;
@@ -107,12 +132,15 @@ p {
 	background-blend-mode: overlay;
 	min-height: 90%;
 }
+#welcome .container {
+	max-width: 780px;
+}
 #welcome h1 {
 	background-color: rgba(255,255,255,0.8);
 	display: -webkit-inline-box;
 	padding: 10px;
 }
-#description {
+.description {
 	background-color: #fed149;
 	padding: 80px;
 }
@@ -123,12 +151,15 @@ p {
 }
 .maps iframe{
     pointer-events: none;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	margin-bottom: -5px;
 }
-img.partner  {
+img.partner, .mentors .thumb-img img  {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
-img.partner:hover  {
+img.partner:hover, .mentors .thumb-img img:hover {
 	-webkit-filter: grayscale(0%);
 	filter: grayscale(0%);
 	-webkit-transition: 1s; /* Safari */
@@ -141,6 +172,7 @@ img.partner:hover  {
 .mentor-meta {
 	text-align: center;
 }
+
 
 /* FAQ */
 .question {

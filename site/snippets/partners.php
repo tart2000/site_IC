@@ -1,6 +1,6 @@
 <div class="container partners">
-    <div class="row">
-        <h2><?php echo page('partners')->title() ?></h2>
+    <div class="row center pb">
+        <em><?php echo page('partners')->title() ?></em>
     </div>
 
     <div class="row">

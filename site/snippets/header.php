@@ -17,7 +17,7 @@
 
   <link type="text/javascript" href="https://code.jquery.com/jquery-2.2.2.min.js">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
+  <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
   <?php echo css('assets/css/bootstrap.min.css') ?>
   <?php echo css('assets/css/main.css') ?>
   

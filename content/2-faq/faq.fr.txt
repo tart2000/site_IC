@@ -4,7 +4,7 @@ Title: FAQ
 
 Text: 
 
-Il manque une question ? Vous ne savez pas ? 
+Il manque une question ? Vous ne trouvez pas ce que vous voulez ? 
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
 
@@ -13,10 +13,12 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 Qanda: 
 
 - 
-  question: une super question
-  answer: une super réponse
+  question: Qui est derrière le projet ?
+  answer: >
+    Rhizome Stratégie avec le Collège
+    Dawson.
 - 
   question: Combien ça coûte ?
-  answer: >
-    Il faut lire la première page ! Tout
-    est expliqué dedans
+  answer: |
+    450$/personne/mois.
+    Cela donne accès à tout le programme d'accompagnement et à un espace de travail.

@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - faq
-  - mentors/alistair-blug
+  - error
   - mentors
-  - mentors/john-doe
-  - register
+  - home
+  - partners
+  - home/ctas/international

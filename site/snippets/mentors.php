@@ -1,6 +1,14 @@
-<div class="container partners">
-    <div class="row">
-        <h2><?php echo page('mentors')->title() ?></h2>
+
+<hr>
+
+<div class="container mentors">
+    <div class="row mb">
+        <div class="col-md-12">
+            <h2><?php echo page('mentors')->title() ?></h2>
+        </div>
+        <div class="col-md-12">
+            <?php echo page('mentors')->text()->kirbytext() ?>
+        </div>
     </div>
 
     <div class="row pb">
