@@ -6,12 +6,32 @@ Author: Arthur Schmitt
 
 ----
 
-Description: Programme d'accélération. 
+Description: Programme d'accélération.
 
 ----
 
-Keywords: Montreal, culture, technologie
+Keywords: Montreal,culture,technologie
 
 ----
 
 Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+
+----
+
+Analytics: UA-XXXXX-X
+
+----
+
+Twit: http://twitter.com
+
+----
+
+Faceb: http://facebook.com
+
+----
+
+Linkd: http://linkedin.com
+
+----
+
+Mail: plouf@mail.com

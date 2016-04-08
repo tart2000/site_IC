@@ -50,8 +50,10 @@ body {
 	background-color: black;
 	color: white;
 }
-.navbar-btn {
+.ml {
 	margin-left: 20px;
+}
+.navbar-btn {
 	border-color: white;
 	color: white;
 }
@@ -83,6 +85,7 @@ h1 {
 }
 h2 {
 	font-family: Fjalla One, sans-serif;
+	color: #d60c54;
 }
 h3 {
 	font-family: roboto;
@@ -131,10 +134,11 @@ em {
 /* Home page */
 #welcome {
 	padding-top: 180px;
+	padding-bottom: 90px;
 	background-size: cover;
 	background-position: center;
-	background-color: #f57153;
-	background-blend-mode: overlay;
+	background-color: #d60c54;
+	background-blend-mode: screen;
 	min-height: 90%;
 }
 #welcome .container {
@@ -146,7 +150,8 @@ em {
 	padding: 10px;
 }
 .description {
-	background-color: #fed149;
+	background-color: #d60c54;
+	color: white;
 	padding: 80px;
 }
 .hp {
@@ -170,6 +175,9 @@ img.partner:hover, .mentors .thumb-img img:hover {
 	-webkit-transition: 1s; /* Safari */
     transition: 1s;
 }
+.partner {
+	margin-bottom: 25px;
+}
 .thumb-img img {
 	max-width: 100%;
 	border-radius: 50%;
@@ -179,7 +187,7 @@ img.partner:hover, .mentors .thumb-img img:hover {
 	text-transform: capitalize;
 }
 .intro {
-	border-top: 2px solid #fed149;
+	border-top: 2px solid #d60c54;
 }
 
 /* FAQ */
@@ -196,7 +204,19 @@ img.partner:hover, .mentors .thumb-img img:hover {
 	color: #929292;
 	font-size: 10px;
 }
+.footer .fa-circle {
+	color: #929292;
+}
 
+/* Mobile fix */
+@media (max-width: 780px) {
+	.description {
+		padding: 50px;
+	}
+	.description h1 {
+		font-size: 20px;
+	}
+}
 
 
 

@@ -4,8 +4,46 @@
 				<div class="row">
 
 					<div class="col-sm-6 copyright">
-						<img src="<?php echo url('assets/images/logo_IC_mtl_grey.png') ?>" class="smb">
-						<?php echo $site->copyright()->kirbytext() ?>					
+						<img src="<?php echo url('assets/images/IC_MTL_Logo_Grey.png') ?>" class="smb">
+						<div class="socials">
+							<!-- Twitter -->
+							<?php if ($site->twit()!='') : ?>
+								<a href="<?php echo $site->twit() ?>" target="_blank">
+									<span class="fa-stack fa-2x">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+									</span>
+								</a>
+							<?php endif ?>
+							<!-- Facebook -->
+							<?php if ($site->faceb()!='') : ?>
+								<a href="<?php echo $site->faceb() ?>" target="_blank">
+									<span class="fa-stack fa-2x">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+									</span>
+								</a>
+							<?php endif ?>
+							<!-- Linkedin -->
+							<?php if ($site->linkd()!='') : ?>
+								<a href="<?php echo $site->linkd() ?>" target="_blank">
+									<span class="fa-stack fa-2x">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+									</span>
+								</a>
+							<?php endif ?>
+							<!-- email -->
+							<?php if ($site->mail()!='') : ?>
+								<a href="mailto:<?php echo $site->mail() ?>?Subject=Contact%20ICMTL" target="_blank">
+									<span class="fa-stack fa-2x">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+									</span>
+								</a>
+							<?php endif ?>
+
+						</div>					
 					</div>
 					<div class="col-sm-6 text-right">
 						<?php echo page('home')->foottext()->kirbytext() ?>
