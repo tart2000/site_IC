@@ -2,6 +2,9 @@
 
 title: Home
 pages: true
+files: 
+  width: 2500
+  height: 2500
 fields:
   title:
     label: Title

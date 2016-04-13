@@ -17,7 +17,7 @@ body {
 	max-height: 100%;
 }
 .navbar-brand {
-    height: 76px
+    height: 72px
 }
 .navbar {
 	background-color: black;
@@ -29,8 +29,11 @@ body {
 }
 .navbar-default .navbar-nav>li>a {
 	color: white;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+.navbar-default .navbar-nav>.active>a {
+	background-color: white;
 }
 .navbar-default .navbar-nav>li>a:hover {
 	color: grey;
@@ -42,7 +45,7 @@ body {
 	text-transform: uppercase;
 	background-color: transparent;
 	height: 46px;
-	margin-top: 16px;
+	margin-top: 13px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -64,11 +67,19 @@ body {
 .navbar-toggle {
 	margin-top: 20px;
 }
-@media (min-width: 768px) {
+.lang {
+	text-transform: lowercase;
+}
+.separator a:hover {
+	color: white !important; 
+	cursor: default;
+}
+@media (max-width: 768px) {
+	li.separator {
+		display: none;
+	}
 	.lang {
-		border-left: solid white 1px;
-		margin-left: 15px;
-		padding-left: 15px;
+		float: right;
 	}
 }
 
@@ -84,7 +95,8 @@ h1 {
 	font-size: 40px;
 }
 h2 {
-	font-family: Fjalla One, sans-serif;
+	font-family: Amatic SC, script;
+	font-size: 42px;
 	color: #d60c54;
 }
 h3 {
@@ -150,10 +162,10 @@ em {
 	padding: 10px;
 }
 .description {
-	background-color: #d60c54;
-	color: white;
+	background-color: #fed149;
 	padding: 80px;
 }
+
 .hp {
 	max-width: 720px;
 	margin-right: auto;

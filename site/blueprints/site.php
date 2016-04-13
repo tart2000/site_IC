@@ -15,6 +15,12 @@ fields:
   keywords:
     label: Keywords
     type:  tags
+  logo: 
+    label: Header logo selection
+    type:  selector
+    mode:  single
+    types:
+      - image
   copyright:
     label: Copyright
     type:  textarea  

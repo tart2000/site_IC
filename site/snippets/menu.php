@@ -23,7 +23,9 @@
 
 	    	</li>
     	<?php endforeach ?>
-
+    	<li class="separator">
+    		<a>|</a>
+    	</li>
 
     	<?php foreach($site->languages() as $language): ?>
     		<li class="lang">

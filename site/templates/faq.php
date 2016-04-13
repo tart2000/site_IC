@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-	<div class="container pt" role="main">
+	<div class="container pt mb" role="main">
 		<h1><?php echo $page->title()->html() ?></h1>
 
 		<?php $coun = 0 ?>
@@ -14,7 +14,7 @@
 
 		<hr>
 
-	<div class="container">
+	<div class="container mt">
 		<!-- Questions YAML --> 
 		<?php $count = 0 ?>
 		<?php foreach(yaml($page->qanda()) as $question): ?>
@@ -26,7 +26,9 @@
 		<?php endforeach ?>
 	</div> <!-- // container -->
 
-	<div class="container mb">
+	<hr>
+
+	<div class="container mt mb">
 		<?php echo $page->text()->kirbytext() ?>
 	</div>
 

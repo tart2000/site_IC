@@ -35,3 +35,7 @@ Linkd: http://linkedin.com
 ----
 
 Mail: plouf@mail.com
+
+----
+
+Logo: IC_MTL_Logo_Blanc_Header_site.png

@@ -3,7 +3,9 @@
 title: Mentor
 pages: false
 sortable:true
-files: true
+files: 
+  width: 1000
+  height: 1000
 fields:
   title:
     label: Name
