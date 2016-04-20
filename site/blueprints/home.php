@@ -12,6 +12,12 @@ fields:
   baseline:
   	label: Baseline
   	type: text
+  bg: 
+    label: Background image selection
+    type:  selector
+    mode:  single
+    types:
+      - image
   description:
   	label: Description
   	type: textarea

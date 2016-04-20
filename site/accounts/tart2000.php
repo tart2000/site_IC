@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - home
   - home/ctas/international
   - home/ctas/espace
   - home/ctas/accompagnement
   - mentors/kyle-abbott
-  - mentors/john-doe

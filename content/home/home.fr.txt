@@ -38,3 +38,7 @@ info@icmtl.com
 Ouverture
 9h > 19h
 lundi > samedi
+
+----
+
+Bg: ordi.jpg

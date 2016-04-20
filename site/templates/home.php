@@ -1,7 +1,14 @@
 <?php snippet('header') ?>
 
 	<!-- Accueil -->
-	<div id="welcome" style="background-image:url(<?php echo $page->images()->first()->url() ?>);">
+	<?php if ($page->bg() != '') : ?>
+		<?php $bg = $page->bg()->toFile() ?>
+		<?php $bg = $bg->url() ?>
+	<?php else : ?>
+		<?php $bg = url('/assets/images/illus_icmtl.jpg') ?>
+	<?php endif ?>
+
+	<div id="welcome" style="background-image:url(<?php echo $bg ?>);">
 		<div class="container">
 			<h1><?php echo $page->baseline() ?></h1>
 			<a class="btn btn-lg" href="<?php echo $site->url() ?>/about" role="button"><?php echo l::get('more') ?></a>
