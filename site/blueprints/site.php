@@ -9,6 +9,12 @@ fields:
   author:
     label: Author
     type:  text
+    width: 1/2
+  beta: 
+    label: Beta ?
+    type: toggle
+    text: yes/no
+    width: 1/2
   description:
     label: Description
     type:  textarea

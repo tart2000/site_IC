@@ -1,18 +1,40 @@
 <?php snippet('header') ?>
 
 	<!-- Accueil -->
-	<?php if ($page->bg() != '') : ?>
-		<?php $bg = $page->bg()->toFile() ?>
-		<?php $bg = $bg->url() ?>
-	<?php else : ?>
-		<?php $bg = url('/assets/images/illus_icmtl.jpg') ?>
-	<?php endif ?>
+	<?php 
+		if ( s::get('device_class') == 'mobile' ) {
+			if ($page->mobilebg() != '') {
+				$bg = $page->mobilebg()->toFile();
+				$bg = $bg->url();
+			} else {
+				$bg = url('/assets/images/illus_icmtl.jpg'); 
+			}
+		} else if ($page->bg() != '') {
+			$bg = $page->bg()->toFile();
+			$bg = $bg->url(); 
+		} else {
+			$bg = url('/assets/images/illus_icmtl.jpg');
+		}
+	?>
 
 	<div id="welcome" style="background-image:url(<?php echo $bg ?>);">
-		<div class="container">
-			<h1><?php echo $page->baseline() ?></h1>
-			<a class="btn btn-lg" href="<?php echo $site->url() ?>/about" role="button"><?php echo l::get('more') ?></a>
-		</div>
+		
+		<?php if ( s::get('device_class') == 'mobile' ) : ?>
+			<div class="container">
+				<h1><?php echo $page->baseline() ?></h1>
+				<a class="btn btn-lg" href="<?php echo $site->url() ?>/about" role="button"><?php echo l::get('more') ?></a>
+			</div>
+		<?php else : ?>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-offset-7 col-sm-4 right">
+						<h1><?php echo $page->baseline() ?></h1>
+						<!-- <a class="btn btn-lg" href="<?php echo $site->url() ?>/about" role="button"><?php echo l::get('more') ?></a>
+						-->
+					</div>
+				</div>
+			</div>
+		<?php endif ?>
 	</div>
 
 	<div class="description">

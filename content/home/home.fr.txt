@@ -10,6 +10,8 @@ IC est le programme pour vous si :
 - vous êtes awesome 
 - vous êtes prêts à être au top
 
+(bouton: http://google.com text: plouf)
+
 ----
 
 Baseline: Un programme d'accélération en 8 mois pour les fondateurs !
@@ -41,4 +43,8 @@ lundi > samedi
 
 ----
 
-Bg: ordi.jpg
+Bg: icmtl_websiteillustration_final_horizontal_nologos_2500.jpg
+
+----
+
+Mobilebg: icmtl_websiteillustration_final_vertical_nologos.jpg

@@ -39,3 +39,7 @@ Mail: plouf@mail.com
 ----
 
 Logo: IC_MTL_Logo_Blanc_Header_site.png
+
+----
+
+Beta: true

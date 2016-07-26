@@ -18,6 +18,14 @@ fields:
     mode:  single
     types:
       - image
+    width: 1/2
+  mobilebg: 
+    label: Mobile image selection
+    type:  selector
+    mode:  single
+    types:
+      - image
+    width: 1/2
   description:
   	label: Description
   	type: textarea

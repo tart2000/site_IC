@@ -11,4 +11,3 @@ history:
   - home/ctas/international
   - home/ctas/espace
   - home/ctas/accompagnement
-  - mentors/kyle-abbott

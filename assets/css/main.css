@@ -87,12 +87,24 @@ body {
 .nav .nav {
 	padding-left: 15px;
 }
+.beta {
+	position: relative;
+	top: 20px;
+	text-transform: lowercase;
+	font-style: italic;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color: #d60c54;
+}
+.nav-pills>li>a {
+	color: #d60c54;
+}
 
 /* General */
 h1 {
 	font-family: roboto;
 	font-weight: 100;
-	font-size: 40px;
+	font-size: 32px;
 }
 h2 {
 	font-family: Amatic SC, script;
@@ -137,6 +149,16 @@ em {
 .pb {
 	padding-bottom: 45px;
 }
+.right {
+	text-align: right;
+}
+.cta-img {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.cta-img img {
+	max-width: 100%;
+}
 
 /* Text blocks */
 .text img {
@@ -149,8 +171,6 @@ em {
 	padding-bottom: 90px;
 	background-size: cover;
 	background-position: center;
-	background-color: #d60c54;
-	background-blend-mode: screen;
 	min-height: 90%;
 }
 #welcome .container {
@@ -166,11 +186,6 @@ em {
 	padding: 80px;
 }
 
-.hp {
-	max-width: 720px;
-	margin-right: auto;
-	margin-left: auto;
-}
 .maps iframe{
     pointer-events: none;
     -webkit-filter: grayscale(100%);
@@ -196,7 +211,7 @@ img.partner:hover, .mentors .thumb-img img:hover {
 }
 .mentor-meta {
 	text-align: center;
-	text-transform: capitalize;
+	min-height: 80px;
 }
 .intro {
 	border-top: 2px solid #d60c54;

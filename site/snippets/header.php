@@ -41,7 +41,10 @@
 					<span class="icon-bar"></span>
 				</button>
 				<?php $logo = $site->logo()->toFile() ?>
-				<a class="navbar-brand" href="<?php echo $site->url() ?>"><img src="<?php echo $logo->url() ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" /></a>
+				<a class="navbar-brand" href="<?php echo $site->url() ?>"><img src="<?php e($logo!='',$logo->url()) ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" /></a>
+				<?php if ($site->beta()=='true') : ?>
+					<span class="beta">Beta</span>
+				<?php endif ?>
 			</div>
 	    <?php snippet('menu') ?>
 		</div>
