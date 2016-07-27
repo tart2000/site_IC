@@ -26,7 +26,7 @@
             <div role="tabpanel" class="row pb tab-pane fade <?php e($count==0,'in active') ?>" id="<?php echo $cat->dirname() ?>">
                 <?php $thecat = $cat->uid() ?>
                 <?php foreach (page('mentors')->children()->filterBy('category','*=',$thecat) as $mentor) : ?>
-                    <div class="col-md-3 col-xs-6 col-sm-4 mb">
+                    <div class="col-md-3 col-xs-6 col-sm-4 mb mentor">
                         <?php if($image = $mentor->images()->sortBy('sort', 'asc')->first()): ?>
                             <div class="thumb-img">
                                 <?php echo thumb($image, array('width' => 400, 'height' => 400, 'crop' => true)) ?>

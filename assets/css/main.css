@@ -216,6 +216,11 @@ img.partner:hover, .mentors .thumb-img img:hover {
 .intro {
 	border-top: 2px solid #d60c54;
 }
+@media only screen and (max-width : 767px) {
+  .mentor {
+    height: auto !important;
+  } 
+}
 
 /* FAQ */
 .question {

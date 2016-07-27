@@ -1,3 +1,8 @@
+// Box sizing 
+$(function() {
+    $('.mentor').matchHeight();
+});
+
 
 // Disable scroll zooming and bind back the click event
 var onMapMouseleaveHandler = function (event) {
