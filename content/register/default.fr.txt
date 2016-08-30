@@ -4,14 +4,24 @@ Title: Inscriptions
 
 Text: 
 
-## Pourquoi il faut postuler ? 
+## IC MTL en version Beta 
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Les deux programmes sont lancés en version Beta ! L'objectif est de valider notre modèle et de s'adapter en fonction de vos feedback. Nous appliquons à IC MTL les principes du leanstartup qui sera une des méthodologie clé que nous vous ferons éprouver lors de votre passage. En contrepartie, les frais associés à votre participation aux programmes sont aussi en mode Beta. 
 
 ## Détails techniques 
 
-Il y a des sessions tous les 8 mois. La prochaine sera à tel moment.
+### [8M]
+Pour le programme [8M], le processus de recrutement est en cours. 
 
-## Allons-y !
+Dates clés:
+Session d'information : 25 août 2016 
+Date limite pour le dépôt de votre candidature: 5 septembre 2016
+Début du programme: 12 octobre 2016
 
-Voilà le lien vers le formulaire à remplir : http://form.com
+Où trouver toute l'information ? (link: https://www.dawsoncollege.qc.ca/aec/ text: ici)
+
+###[ScaleUP]
+
+Pour le programme [Scaleup], le processus de recrutement se fait de manière progressive durant le Beta pour des engagements de six mois. Un nombre limité d'entreprises sont sélectionnées durant cette première phase. 
+
+Si vous voulez soumettre votre candidature , nous vous invitons à remplir le formulaire en ligne (link: https://icmtl.typeform.com/to/f37uzM text: ici).

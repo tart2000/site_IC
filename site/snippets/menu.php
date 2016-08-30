@@ -23,22 +23,28 @@
 
 	    	</li>
     	<?php endforeach ?>
-    	<li class="separator">
-    		<a>|</a>
-    	</li>
 
-    	<?php foreach($site->languages() as $language): ?>
-    		<li class="lang">
-	    		<?php if ($site->language() != $language) : ?>
-	    			<a href="<?php echo $page->url($language->code()) ?>">
-	        			<?php echo html($language->code()) ?>
-			    	</a>
-		    	<?php endif ?>
+    	<?php if($site->thetoggle() == 'true') : ?>
+	    	<li class="separator">
+	    		<a>|</a>
 	    	</li>
-    	<?php endforeach ?>
 
+	    	<?php foreach($site->languages() as $language): ?>
+	    		<li class="lang">
+		    		<?php if ($site->language() != $language) : ?>
+		    			<a href="<?php echo $page->url($language->code()) ?>">
+		        			<?php echo html($language->code()) ?>
+				    	</a>
+			    	<?php endif ?>
+		    	</li>
+	    	<?php endforeach ?>
+    	<?php endif ?>
 
-    	<a href="<?php echo page('register')->url() ?>"><button type="button" class="btn navbar-btn ml"><?php echo l::get('register') ?></button></a>
-
+    	<li>
+    	<?php if($site->register() == 'true') : ?>
+    		<a href="<?php echo page('register')->url() ?>"><button type="button" class="btn navbar-btn"><?php echo l::get('register') ?></button></a>
+    	<?php endif ?>
+    	</li>
 	</ul>
 </div><!--/.nav-collapse -->
+

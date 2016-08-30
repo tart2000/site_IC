@@ -27,6 +27,16 @@ fields:
     mode:  single
     types:
       - image
+  thetoggle:
+    label: Multilingual button
+    type: toggle
+    text: yes/no
+    width: 1/2
+  register: 
+    label: Register button
+    type: toggle
+    text: yes/no
+    width: 1/2
   copyright:
     label: Copyright
     type:  textarea  

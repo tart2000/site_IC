@@ -6,11 +6,11 @@ Author: Arthur Schmitt
 
 ----
 
-Description: Programme d'accélération.
+Description: Incubateur et campus entrepreneurial pour entrepreneurs-fondateurs créatifs et culturels.
 
 ----
 
-Keywords: Montreal,culture,technologie
+Keywords: Montreal,culture,technologie,industries creatives
 
 ----
 
@@ -22,24 +22,32 @@ Analytics: UA-XXXXX-X
 
 ----
 
-Twit: http://twitter.com
+Twit: https://twitter.com/icmtl_yul
 
 ----
 
-Faceb: http://facebook.com
+Faceb: https://www.facebook.com/ICMTL
 
 ----
 
-Linkd: http://linkedin.com
+Linkd: http://linkedin.com/company/ic-mtl
 
 ----
 
-Mail: plouf@mail.com
+Mail: info@icmtl.org
 
 ----
 
-Logo: IC_MTL_Logo_Blanc_Header_site.png
+Logo: ic_mtl_logo_blanc_header_site.png
 
 ----
 
 Beta: true
+
+----
+
+Thetoggle: false
+
+----
+
+Register: true

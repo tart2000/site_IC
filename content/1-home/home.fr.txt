@@ -1,0 +1,51 @@
+Title: Accueil
+
+----
+
+Text: 
+
+## À qui s'adresse IC MTL ?
+Aux artistes, architectes, designers, et gestionnaires qui représentent le futur de la scène et du divertissement, de l'édition, de l'écriture, de la publicité, des métiers d’art, de la mode, des arts culinaires, du jeu vidéo, du multimédia et de la réalité virtuelle, de l’audiovisuel, des nouvelles écritures et des nouveaux médias ...
+## Que propose IC MTL ?
+Deux programmes [8M] et [ScaleUp] visant à favoriser le développement de projets entrepreneuriaux d’impact et innovants dans le secteur des industries culturelles et créatives.
+### [8M] 
+Premier programme combinant une formation professionnelle (approuvée par le MERST -  A.E.C) et un programme de pré-incubation permettant à des professionnels des industries culturelles et créatives de devenir des entrepreneurs, fondateurs d'entreprises et organisations qui réinventent la culture et repousse les limites de la créativité.
+
+### [ScaleUP]
+Programme pensé pour faciliter le passage à l'échelle d'entreprises et OSBLs ayant une proposition de valeur qui sort des sentiers battus.
+
+L'objectif: supprimer les points de friction et représenter une plateforme d'opportunités (experts, réseaux) pour s'assurer que les entrepreneurs-fondateurs puissent se concentrer sur ce qui compte, la croissance de leur startup. 
+
+(bouton: http://icmtl.tart2000.com/programme text: en savoir plus)
+
+----
+
+Baseline: Un incubateur dédié aux entrepreneurs culturels et créatifs
+
+----
+
+Description: ICMTL lance ses deux premiers programmes [8M] et [ScaleUP] en mode βeta pour les fondateurs d'entreprises créatives et organisations culturelles qui se distinguent par leur caractère innovant au croisement de l'art, du design, et de la technologie.
+
+----
+
+Region: true
+
+----
+
+Regilink: 
+
+----
+
+Foottext: 
+
+409 St Nicolas #300
+H2Y 2P4 Montréal QC 
++1 514 431 3612
+
+----
+
+Bg: icmtl_websiteillustration_final_horizontal-e1467237495484.jpg
+
+----
+
+Mobilebg: icmtl_websiteillustration_final_vertical_nologos.jpg

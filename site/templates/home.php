@@ -22,7 +22,8 @@
 		<?php if ( s::get('device_class') == 'mobile' ) : ?>
 			<div class="container">
 				<h1><?php echo $page->baseline() ?></h1>
-				<a class="btn btn-lg" href="<?php echo $site->url() ?>/about" role="button"><?php echo l::get('more') ?></a>
+				<!-- <a class="btn btn-lg" href="<?php echo $site->url() ?>/about" role="button"><?php echo l::get('more') ?></a>
+				-->
 			</div>
 		<?php else : ?>
 			<div class="container-fluid">

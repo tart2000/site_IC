@@ -1,7 +1,6 @@
 <?php snippet('header') ?>
 
 	<div class="container pt mb" role="main">
-		<h1><?php echo $page->title()->html() ?></h1>
 
 		<?php $coun = 0 ?>
 		<?php foreach(yaml($page->qanda()) as $question): ?>

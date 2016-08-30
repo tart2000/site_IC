@@ -32,7 +32,7 @@
 	<![endif]-->
 	
 	<nav class="navbar navbar-default navbar-top">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 					<span class="sr-only">Toggle navigation</span>
@@ -43,7 +43,7 @@
 				<?php $logo = $site->logo()->toFile() ?>
 				<a class="navbar-brand" href="<?php echo $site->url() ?>"><img src="<?php e($logo!='',$logo->url()) ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" /></a>
 				<?php if ($site->beta()=='true') : ?>
-					<span class="beta">Beta</span>
+					<p class="beta navbar-text">Beta</p>
 				<?php endif ?>
 			</div>
 	    <?php snippet('menu') ?>

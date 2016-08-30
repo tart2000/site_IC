@@ -25,18 +25,23 @@ body {
 	border-width: 0px;
 	border-radius: 0px;
 	margin-bottom: 0px;
-    text-transform: uppercase;
+	text-transform: uppercase;
+	height: 70px;
 }
 .navbar-default .navbar-nav>li>a {
 	color: white;
 	padding-top: 26px;
 	padding-bottom: 26px;
+	background-color: black; 
+	height: 70px;
+
 }
 .navbar-default .navbar-nav>.active>a {
 	background-color: white;
 }
 .navbar-default .navbar-nav>li>a:hover {
 	color: grey;
+	background-color: black;
 }
 .btn {
 	border-radius: 23px;
@@ -59,6 +64,9 @@ body {
 .navbar-btn {
 	border-color: white;
 	color: white;
+	margin: 0;
+	position: relative;
+	top: -14px;
 }
 .navbar-btn:hover {
 	background-color: white;
@@ -89,9 +97,12 @@ body {
 }
 .beta {
 	position: relative;
-	top: 20px;
+	top: -3px;
+	left: -12px;
 	text-transform: lowercase;
 	font-style: italic;
+	color: white !important;
+	font-size: 0.9em;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
 	background-color: #d60c54;
@@ -119,8 +130,8 @@ h3 {
 p {
 	font-size: 1.4em;
 }
-.hp li {
-	font-size: 1.4em;	
+.hp li, .text li {
+	font-size: 1.4em;
 }
 em {
 	color: #929292;
@@ -167,7 +178,7 @@ em {
 
 /* Home page */
 #welcome {
-	padding-top: 180px;
+	padding-top: 250px;
 	padding-bottom: 90px;
 	background-size: cover;
 	background-position: center;
@@ -185,7 +196,9 @@ em {
 	background-color: #fed149;
 	padding: 80px;
 }
-
+.container {
+	max-width: 920px;
+}
 .maps iframe{
     pointer-events: none;
     -webkit-filter: grayscale(100%);
